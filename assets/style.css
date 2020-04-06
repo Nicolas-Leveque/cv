@@ -1,0 +1,34 @@
+header
+{
+    display: flex;
+}
+#header_gauche
+{
+    background-color: #FFC107;
+    width: 30%;
+}
+#header_droite
+{
+    margin-left: 100px;
+}
+#photo
+{
+    border-radius: 50%;
+    margin: auto;
+        
+}
+#corps
+{
+    display: flex;
+}
+#corps_gauche
+{
+    background-color: #FFC107;
+    width: 30%;
+}
+#corps_gauche h3
+{
+    text-align: center;
+    background-color: #757575;
+    color: #FFC107;
+}
