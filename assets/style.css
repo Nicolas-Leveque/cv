@@ -8,6 +8,16 @@ header
 {
     display: flex;
 }
+h1 span
+{
+    color: #FFC107;
+}
+
+h2 span
+{
+    text-decoration: underline #ffc107;
+
+}
 #header_gauche
 {
     display: flex;
@@ -18,6 +28,7 @@ header
 #header_droite
 {
     margin-left: 100px;
+    width: 70%;
 }
 #photo
 {
@@ -70,6 +81,22 @@ header
     border-radius: 50%;
     color: black;
     margin: auto;
-
-
 }
+#corps_droite
+{
+    margin-left: 100px;
+    width: 70%;
+    
+}
+h3 i
+{
+    color: #FFC107;
+}
+#corps_droite h3
+{
+    border-bottom: solid #FFC107 2px ;
+    padding-bottom: 3px;
+    width: 90%;
+}
+
+#corps_droite 
