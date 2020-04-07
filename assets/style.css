@@ -1,3 +1,4 @@
+/*version bureau*/
 body
 {
     font-family: arial, serif, sans-serif;
@@ -34,8 +35,8 @@ h2 span
 {
     border-radius: 50%;
     margin: 20px;
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border: 2px solid #757575;
         
 }
@@ -53,6 +54,12 @@ h2 span
     text-align: center;
     background-color: #757575;
     color: #FFC107;
+    padding: 2%;
+}
+a
+{
+    text-decoration: none;
+    color: black;
 }
 #address
 {
@@ -77,16 +84,16 @@ h2 span
     align-items: center;
     width: 50px;
     height: 50px;
-    border: 2px solid black;
+    border: 2px solid #757575;
     border-radius: 50%;
-    color: black;
+    color: #757575;
     margin: auto;
 }
 #corps_droite
 {
     margin-left: 100px;
     width: 70%;
-    
+    padding: 3% 0% 2% 0%;
 }
 h3 i
 {
@@ -98,5 +105,7 @@ h3 i
     padding-bottom: 3px;
     width: 90%;
 }
-
-#corps_droite 
+.ajustement
+{
+    display: flex;
+}
