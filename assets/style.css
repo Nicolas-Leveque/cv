@@ -1,11 +1,19 @@
+body
+{
+    font-family: arial, serif, sans-serif;
+    margin: auto;
+    max-width: 1200px;
+}
 header
 {
     display: flex;
 }
 #header_gauche
 {
+    display: flex;
     background-color: #FFC107;
     width: 30%;
+    justify-content: center;
 }
 #header_droite
 {
@@ -14,7 +22,10 @@ header
 #photo
 {
     border-radius: 50%;
-    margin: auto;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    border: 2px solid #757575;
         
 }
 #corps
@@ -31,4 +42,34 @@ header
     text-align: center;
     background-color: #757575;
     color: #FFC107;
+}
+#address
+{
+    padding: 10% 15% 15% 15%;
+}
+#info
+{
+    padding: 10% 15% 100% 15%; 
+}
+#icones
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    justify-content: space-between;
+    align-content: center;
+}
+.icone
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: black;
+    margin: auto;
+
+
 }
