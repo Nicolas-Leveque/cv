@@ -54,7 +54,8 @@ h2 span
     text-align: center;
     background-color: #757575;
     color: #FFC107;
-    padding: 2%;
+    padding: 2% 0% 2% 0%;
+    
 }
 a
 {
@@ -95,9 +96,10 @@ a
     width: 70%;
     padding: 3% 0% 2% 0%;
 }
-h3 i
+#corps_droite i
 {
     color: #FFC107;
+    margin-right: 25px;
 }
 #corps_droite h3
 {
@@ -105,7 +107,37 @@ h3 i
     padding-bottom: 3px;
     width: 90%;
 }
+#corps_droite h3
+{
+    margin-left: 10px;
+}
 .ajustement
 {
     display: flex;
+    padding: 10px;
+}
+.dot
+{
+    color: #FFC107;
+    margin-right: 10px;
+
+}
+.année
+{
+    margin-right: 5px;
+    width: 20%;
+}
+.where
+{
+    padding-left: 15%;
+    width: 300px;
+
+}
+
+
+#recommandation
+{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
 }
