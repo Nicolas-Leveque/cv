@@ -141,3 +141,43 @@ a
     justify-content: space-around;
     margin-right: 50px;
 }
+/* responsive*/
+
+@media all and (max-width: 800px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    #header_gauche
+    {
+        width: 100%;
+    }
+    #header_droite
+    {
+        width: 95%;
+        text-align: center;        
+    }
+    #corps
+    {
+        flex-direction: column-reverse;
+    }
+    #corps_gauche
+    {
+        width: 100%;
+    }
+    #corps_droite
+    {
+        width: 100%;
+        
+    }
+    #address
+    {
+        text-align: center;
+        padding: 2%;
+    }
+    #info
+    {
+        padding: 2%;
+    }
+}
