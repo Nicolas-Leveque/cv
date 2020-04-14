@@ -9,6 +9,10 @@ header
 {
     display: flex;
 }
+p
+{
+    padding: 5px;
+}
 h1 span
 {
     color: #FFC107;
@@ -193,5 +197,28 @@ a
     .where
     {
         padding:0% 5% 0% 5%;
+    }
+}
+@media all and (max-width: 450px)
+{
+    #header_right
+    {
+        padding: 0px 5px 0px 5px;
+    }
+    .dot
+    {
+        visibility: hidden;
+    }
+    .ajustement
+    {
+        flex-direction: column;
+    }
+    .where
+    {
+        padding: 3% 0% 0% 0%;
+    }
+    #recommandation
+    {
+        flex-direction: column;
     }
 }
