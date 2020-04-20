@@ -19,13 +19,8 @@ h1 span
 }
 h2
 {
-    padding-bottom: 2px;
-}
-h2 > span
-{
-    text-decoration: underline;
-    text-decoration-color: #ffc107;
-    text-underline-position: under;
+    margin-bottom: 2px;
+    
 }
 #header_left
 {
@@ -37,10 +32,22 @@ h2 > span
 }
 #header_right
 {
+    display: flex;
+    flex-direction: column;
     padding-left: 5%;
     padding-right: 5px;
     width: 70%;
 
+}
+#titre
+{
+    display: flex;
+    flex-direction: column;
+}
+#underline
+{
+    border-top: solid 2px #FFC107;
+    width: 70px;
 }
 #photo
 {
@@ -80,7 +87,7 @@ a
 }
 #info
 {
-    padding: 10% 15% 140% 15%; 
+    padding: 10% 15% 130% 15%; 
 }
 #icones
 {
@@ -170,7 +177,13 @@ a
     #header_right
     {
         width: 100%;
-        text-align: center;        
+        text-align: center; 
+          
+    }
+    #titre
+    {
+        width: 303px;
+        margin: auto;
     }
     #corps
     {
@@ -203,17 +216,19 @@ a
     {
         padding:0% 5% 0% 5%;
     }
-    h2
+    #recommandation
     {
-        padding-bottom: 2px;
+        flex-direction: column;
+        margin-left: 15%;
     }
+    
 }
 @viewport 
 {
     width: device-width; 
     zoom: 1;
  }
-@media all and (max-width: 450px)
+@media all and (max-width: 460px)
 {
     #header_right
     {
@@ -227,9 +242,14 @@ a
     {
         visibility: hidden;
     }
+    .année
+    {    
+    width: 100%;
+    }
     .ajustement
     {
         flex-direction: column;
+        margin-left: 5px;
     }
     .where
     {
@@ -237,7 +257,6 @@ a
     }
     #recommandation
     {
-        flex-direction: column;
+        margin-left: 5px;
     }
-    
 }
