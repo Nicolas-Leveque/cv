@@ -258,7 +258,7 @@ a:hover
         margin-left: 15%;
     }
     
-}
+
 
 @media all and (max-width: 460px)
 {
@@ -281,7 +281,7 @@ a:hover
     .ajustement
     {
         flex-wrap: wrap;
-        /*flex-direction: column;*/
+        flex-direction: column;
         margin-left: 5px;
     }
     .where
