@@ -167,6 +167,7 @@ a:hover
 {
     margin-right: 5px;
     width: 40%;
+    font-weight: bold;
 }
 .where
 {
@@ -254,7 +255,6 @@ a:hover
     }
     #bloc_recommandation
     {
-        flex-direction: column;
         margin-left: 15%;
     }
     
@@ -291,6 +291,7 @@ a:hover
     }
     #bloc_recommandation
     {
+        flex-direction: column;
         margin-left: 5px;
     }
 }
